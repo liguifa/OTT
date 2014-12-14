@@ -1,0 +1,65 @@
+﻿<Window x:Class="OTT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="1024" Background="#000"
+        xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"
+        xmlns:ottViews="clr-namespace:OTT.Views" >
+    <shell:WindowChrome.WindowChrome>
+        <shell:WindowChrome GlassFrameThickness="0" ResizeBorderThickness="0"
+                        CaptionHeight="28" CornerRadius="6" />
+    </shell:WindowChrome.WindowChrome>
+    <Window.Template>
+        <ControlTemplate TargetType="{x:Type Window}">
+            <Border BorderThickness="1">
+                <DockPanel>
+                    <Grid x:Name="WindowHeader" DockPanel.Dock="Top" Height="105" Background="#146CB7">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="65" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" Width="1024">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18" />
+                                <RowDefinition Height="22" />
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="904" />
+                                    <ColumnDefinition Width="30" />
+                                    <ColumnDefinition Width="30" />
+                                    <ColumnDefinition Width="30" />
+                                    <ColumnDefinition Width="30" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="这是一个窗口" />
+                                <Button Grid.Column="1">
+                                    
+                                </Button>
+                                <Button Grid.Column="2">
+
+                                </Button>
+                                <Button Grid.Column="3">
+
+                                </Button>
+                                <Button Grid.Column="4" Click="Close">
+                                    
+                                </Button>
+                            </Grid>
+                        </Grid>
+                        <StackPanel Grid.Row="1" Orientation="Horizontal">
+                            <Image Source="/Res/button_1.jpg" Width="100" Height="65" Stretch="Fill" Cursor="Hand"/>
+                            <Image Source="/Res/button_1.jpg" Width="100" Height="65" Stretch="Fill" Cursor="Hand"/>
+                            <Image Source="/Res/button_1.jpg" Width="100" Height="65" Stretch="Fill" Cursor="Hand"/>
+                            <Image Source="/Res/button_1.jpg" Width="100" Height="65" Stretch="Fill" Cursor="Hand"/>
+                            <Image Source="/Res/button_1.jpg" Width="100" Height="65" Stretch="Fill" Cursor="Hand"/>
+                            <Image Source="/Res/button_1.jpg" Width="524" Height="65" Stretch="Fill" Cursor="Hand"/>
+                        </StackPanel>
+                    </Grid>
+                    <ContentPresenter Margin="0,0,0,0"/>
+                </DockPanel>
+            </Border>
+        </ControlTemplate>
+    </Window.Template>
+    <Grid Height="600" Background="White">
+        <ottViews:SetItemStandardView />
+    </Grid>
+</Window>

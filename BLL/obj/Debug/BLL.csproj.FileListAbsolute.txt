@@ -1,0 +1,10 @@
+E:\桌面文件\C#\OTT\BLL\bin\Debug\OTT_DB\OTT_DB.mdb
+E:\桌面文件\C#\OTT\BLL\bin\Debug\BLL.dll
+E:\桌面文件\C#\OTT\BLL\bin\Debug\BLL.pdb
+E:\桌面文件\C#\OTT\BLL\bin\Debug\Common.dll
+E:\桌面文件\C#\OTT\BLL\bin\Debug\DAL.dll
+E:\桌面文件\C#\OTT\BLL\bin\Debug\Common.pdb
+E:\桌面文件\C#\OTT\BLL\bin\Debug\DAL.pdb
+E:\桌面文件\C#\OTT\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\桌面文件\C#\OTT\BLL\obj\Debug\BLL.dll
+E:\桌面文件\C#\OTT\BLL\obj\Debug\BLL.pdb

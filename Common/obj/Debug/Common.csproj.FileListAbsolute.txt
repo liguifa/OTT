@@ -1,0 +1,10 @@
+F:\桌面文件\C#\OTT\Common\bin\Debug\Common.dll
+F:\桌面文件\C#\OTT\Common\bin\Debug\Common.pdb
+F:\桌面文件\C#\OTT\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\桌面文件\C#\OTT\Common\obj\Debug\Common.dll
+F:\桌面文件\C#\OTT\Common\obj\Debug\Common.pdb
+E:\桌面文件\C#\OTT\Common\bin\Debug\Common.dll
+E:\桌面文件\C#\OTT\Common\bin\Debug\Common.pdb
+E:\桌面文件\C#\OTT\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\桌面文件\C#\OTT\Common\obj\Debug\Common.dll
+E:\桌面文件\C#\OTT\Common\obj\Debug\Common.pdb

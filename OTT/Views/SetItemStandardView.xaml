@@ -1,0 +1,33 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" x:Class="OTT.Views.SetItemStandardView" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1024">
+    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1024" Height="600" AutoGenerateColumns="False" IsReadOnly="False" CanUserAddRows="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="编号" Binding="{Binding Item_Id}" Width="*" />
+            <DataGridTextColumn Header="项目名称" Binding="{Binding Item_ProjectID,Mode=TwoWay}" Width="*" />
+            <DataGridTextColumn Header="成绩上限" Binding="{Binding Item_ResultMin,Mode=TwoWay}" Width="*" />
+            <DataGridTextColumn Header="成绩下限" Binding="{Binding Item_ResultMax,Mode=TwoWay}" Width="*" />
+            <DataGridTextColumn Header="分数" Binding="{Binding Item_Score,Mode=TwoWay}" Width="*" />
+            <DataGridTextColumn Header="等级" Binding="{Binding Item_Level,Mode=TwoWay}" Width="*" />
+            <DataGridTextColumn Header="性别" Binding="{Binding Item_Sex,Mode=TwoWay}" Width="*" />
+        </DataGrid.Columns>
+        <DataGrid.ContextMenu>
+            <ContextMenu Name="cm" StaysOpen="true">
+                <MenuItem Header="选择项目">
+                    <MenuItem Header="添加成绩"/>
+                    <MenuItem Header="删除成绩"/>
+                    <MenuItem Header="编辑成绩"/>
+                </MenuItem>
+                <MenuItem Header="添加成绩" Click="AddScore"/>
+                <MenuItem Header="删除成绩"/>
+                <MenuItem Header="编辑成绩" Click="UpdateScore"/>
+            </ContextMenu>
+        </DataGrid.ContextMenu>
+    </DataGrid>
+
+</UserControl>

@@ -1,0 +1,11 @@
+F:\桌面文件\C#\OTT\Test\bin\Debug\OTT_DB\OTT_DB.mdb
+F:\桌面文件\C#\OTT\Test\bin\Debug\Test.exe
+F:\桌面文件\C#\OTT\Test\bin\Debug\Test.pdb
+F:\桌面文件\C#\OTT\Test\bin\Debug\Common.dll
+F:\桌面文件\C#\OTT\Test\bin\Debug\DAL.dll
+F:\桌面文件\C#\OTT\Test\bin\Debug\Common.pdb
+F:\桌面文件\C#\OTT\Test\bin\Debug\DAL.pdb
+F:\桌面文件\C#\OTT\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\桌面文件\C#\OTT\Test\obj\Debug\Test.exe
+F:\桌面文件\C#\OTT\Test\obj\Debug\Test.pdb
+F:\桌面文件\C#\OTT\Test\bin\Debug\Test.exe.config
